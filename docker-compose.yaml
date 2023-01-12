@@ -1,0 +1,26 @@
+# User: postgres
+# Pass: postgrespassword
+---
+version: '3.1'
+
+services:
+
+  postgres:
+    image: postgres:14
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+      POSTGRES_DB: dvdrental
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./entrypoint-initdb.d:/docker-entrypoint-initdb.d
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: pgadmin@focusondevops.com
+      PGADMIN_DEFAULT_PASSWORD: pgadminpassword
+    ports:
+      - "5050:80"
