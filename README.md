@@ -38,11 +38,16 @@ docker-compose up -d
 ```
 4. En un navegador web, dirigirse a la dirección: `http://localhost:5050/`
 5. Iniciar sesión con las credenciales de `pgadmin`
-6. Ir a la opción `Servers > Register > Server`: ![register server](img/create_server.png?raw=true)
-7. Dar un nombre a la conexión: ![connection name](img/create_server_name.png?raw=true)
-7. Ingresar los detalles de la conexión: ![server details](img/create_server_details.png?raw=true)
-7. ¡Listo! Ahora deberías encontrar la conexión disponible: ![database created](img/create_server_result.png?raw=true)
-8. Para ejecutar las instrucciones en SQL debes expandir `postgres > Databases > dvdrental > Schemas > Tables`, luego hacer `clic derecho` en cualquier tabla y seleccionar la opción `Query Tool`: ![query tool](img/query_tool.png?raw=true)
+6. Ir a la opción `Servers > Register > Server`: 
+![register server](img/create_server.png?raw=true)
+7. Dar un nombre a la conexión: 
+![connection name](img/create_server_name.png?raw=true)
+7. Ingresar los detalles de la conexión: 
+![server details](img/create_server_details.png?raw=true)
+7. ¡Listo! Ahora deberías encontrar la conexión disponible: 
+![database created](img/create_server_result.png?raw=true)
+8. Para ejecutar las instrucciones en SQL debes expandir `postgres > Databases > dvdrental > Schemas > Tables`, luego hacer `clic derecho` en cualquier tabla y seleccionar la opción `Query Tool`: 
+![query tool](img/query_tool.png?raw=true)
 
 ## Detener el ambiente de pruebas
 1. Ejecutar el siguiente comando:
