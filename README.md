@@ -38,4 +38,4 @@ docker-compose up -d
 ```
 4. En un navegador web, dirigirse a la dirección: `http://localhost:5050/`
 5. Iniciar sesión con las credenciales de `pgadmin`
-6. Ir a la opción `Servers > Register > Server` ![alt text](https://github.com/giobt/curso_sql_intro/blob/main/create_server.png?raw=true)
+6. Ir a la opción `Servers > Register > Server` ![alt text](img/create_server.png?raw=true)
