@@ -1,10 +1,7 @@
 # User: postgres
 # Pass: postgrespassword
 ---
-version: '3.1'
-
 services:
-
   postgres:
     image: postgres:14
     restart: always
